@@ -1,0 +1,14 @@
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\learning_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\learning_C#.AssemblyInfoInputs.cache
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\learning_C#.AssemblyInfo.cs
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\learning_C#.csproj.CoreCompileInputs.cache
+C:\Users\Stacy\Desktop\learning_C#\bin\Debug\net8.0\learning_C#.exe
+C:\Users\Stacy\Desktop\learning_C#\bin\Debug\net8.0\learning_C#.deps.json
+C:\Users\Stacy\Desktop\learning_C#\bin\Debug\net8.0\learning_C#.runtimeconfig.json
+C:\Users\Stacy\Desktop\learning_C#\bin\Debug\net8.0\learning_C#.dll
+C:\Users\Stacy\Desktop\learning_C#\bin\Debug\net8.0\learning_C#.pdb
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\learning_C#.dll
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\refint\learning_C#.dll
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\learning_C#.pdb
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\learning_C#.genruntimeconfig.cache
+C:\Users\Stacy\Desktop\learning_C#\obj\Debug\net8.0\ref\learning_C#.dll
