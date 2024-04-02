@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stacy\\Desktop\\learning_C#\\learning_C#.csproj": {}
+    "C:\\Users\\Stacy\\Desktop\\Learning_C#\\learning_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stacy\\Desktop\\learning_C#\\learning_C#.csproj": {
+    "C:\\Users\\Stacy\\Desktop\\Learning_C#\\learning_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stacy\\Desktop\\learning_C#\\learning_C#.csproj",
+        "projectUniqueName": "C:\\Users\\Stacy\\Desktop\\Learning_C#\\learning_C#.csproj",
         "projectName": "learning_C#",
-        "projectPath": "C:\\Users\\Stacy\\Desktop\\learning_C#\\learning_C#.csproj",
+        "projectPath": "C:\\Users\\Stacy\\Desktop\\Learning_C#\\learning_C#.csproj",
         "packagesPath": "C:\\Users\\Stacy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stacy\\Desktop\\learning_C#\\obj\\",
+        "outputPath": "C:\\Users\\Stacy\\Desktop\\Learning_C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stacy\\AppData\\Roaming\\NuGet\\NuGet.Config"

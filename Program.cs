@@ -1,39 +1,100 @@
-﻿Random random = new Random();
-int daysUntilExpiration = random.Next(12);
-int discoutPercentage = 0;
+﻿// SKU = Stock Keeping Unit. 
+// SKU value format: <product #>-<2-letter color code>-<size code>
+string sku = "01-MN-L";
 
-// Discount
-if (daysUntilExpiration <= 5)
+string[] product = sku.Split('-');
+
+string type = "";
+string color = "";
+string size = "";
+
+// if (product[0] == "01")
+// {
+//     type = "Sweat shirt";
+// } else if (product[0] == "02")
+// {
+//     type = "T-Shirt";
+// } else if (product[0] == "03")
+// {
+//     type = "Sweat pants";
+// }
+// else
+// {
+//     type = "Other";
+// }
+
+// if (product[1] == "BL")
+// {
+//     color = "Black";
+// } else if (product[1] == "MN")
+// {
+//     color = "Maroon";
+// } else
+// {
+//     color = "White";
+// }
+
+// if (product[2] == "S")
+// {
+//     size = "Small";
+// } else if (product[2] == "M")
+// {
+//     size = "Medium";
+// } else if (product[2] == "L")
+// {
+//     size = "Large";
+// } else
+// {
+//     size = "One Size Fits All";
+// }
+
+// Console.WriteLine($"Product: {size} {color} {type}");
+
+// Refactor to switch case
+
+switch (product[0])
 {
-    if (daysUntilExpiration == 1)
-    {
-        discoutPercentage = 20;
-    } else
-    {
-        discoutPercentage = 10;
-    }
+    case "01": 
+        type = "Sweat shirt";
+        break;
+    case "02": 
+        type = "T-Shirt";
+        break;
+    case "03": 
+        type = "Sweat pants";
+        break;
+    default:
+        type = "Other";
+        break;
 }
 
-// Display message
-if (daysUntilExpiration <= 10)
+switch (product[1])
 {
-    if (daysUntilExpiration <= 5)
-    {
-        if (daysUntilExpiration == 1)
-        {
-            if (daysUntilExpiration == 0)
-            {
-                Console.WriteLine("Your subscription has expired.");
-            } else
-            {
-               Console.WriteLine($"Your subscription expires within a day! Renew now and save {discoutPercentage}%!");
-            }
-        } else
-        {
-            Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days. Renew now and save {discoutPercentage}%!");
-        }
-    } else
-    {
-        Console.WriteLine("Your subscription will expire soon. Renew now!");
-    }
+    case "BL": 
+        color = "Black";
+        break;
+    case "MN": 
+        color = "Maroon";
+        break;
+    default:
+        color = "White";
+        break;
 }
+
+switch (product[2])
+{
+    case "S": 
+        size = "Small";
+        break;
+    case "M": 
+        size = "Medium";
+        break;
+    case "L": 
+        size = "Large";
+        break;
+    default:
+        size = "One Size Fits All";
+        break;
+}
+
+Console.WriteLine($"Product: {size} {color} {type}");
